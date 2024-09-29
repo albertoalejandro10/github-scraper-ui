@@ -1,75 +1,52 @@
-# Nuxt UI Minimal Starter
+# GitHub Profile Scraper UI
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge) ![Vue.js](https://img.shields.io/badge/Vue.js-3.x-brightgreen?style=for-the-badge) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-3.x-green?style=for-the-badge) ![NuxtUI](https://img.shields.io/badge/NuxtUI-1.x-blue?style=for-the-badge) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-blue?style=for-the-badge) ![Vite](https://img.shields.io/badge/Vite-fast-purple?style=for-the-badge)
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+
+A powerful GitHub Profile UI built with **JavaScript**, **Vue.js**, **Nuxt.js**, **NuxtUI**, **TailwindCSS**, and **Vite**. This app connects to a GitHub Scraper API to analyze GitHub profiles, followers, and following, identifying mutual connections to provide valuable insights into your GitHub network.
+
+## Features
+
+- **Vue.js 3**: Reactive user interface for efficient profile analysis.
+- **Nuxt.js 3**: Static site generation and server-side rendering for better performance.
+- **NuxtUI**: Pre-built components for faster development.
+- **Tailwind CSS**: Modern, responsive design framework.
+- **Vite**: Fast and lightweight build tool for development.
+- **GitHub Scraper API**: Analyze profiles, followers, and following data to identify mutual connections.
 
 ## Setup
 
-Make sure to install the dependencies:
+To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-# npm
-npm install
+# Clone the repository
+git clone https://github.com/albertoalejandro196/github-scraper-ui.git
 
-# pnpm
+# Navigate into the project folder
+cd github-scraper-ui
+
+# Install dependencies
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# Start the development server
 pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+
+The app will be running on http://localhost:3000.
 
 ## Production
 
-Build the application for production:
+To build the project for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+## Contributing
 
-```bash
-# npm
-npm run preview
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-# pnpm
-pnpm run preview
+Don't forget to ⭐️ star the repo and share it with your github friends. Thank you.
 
-# yarn
-yarn preview
+## License
 
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the MIT License.
