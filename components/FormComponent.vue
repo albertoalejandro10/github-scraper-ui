@@ -60,7 +60,7 @@ const onSubmit = async (event: FormSubmitEvent<any>) => {
 
     if (error.value) return errorFetching.value = error.value
 
-    localStorage.setItem('fetchData', JSON.stringify(data.value))
+    localStorage.setItem('fetch-data', JSON.stringify(data.value))
     await navigateTo({ path: `/${username}` })
     
   } catch (err) {

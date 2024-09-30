@@ -1,4 +1,4 @@
-# GitHub Profile Scraper UI
+# GitHub Profile UI
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge) ![Vue.js](https://img.shields.io/badge/Vue.js-3.x-brightgreen?style=for-the-badge) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-3.x-green?style=for-the-badge) ![NuxtUI](https://img.shields.io/badge/NuxtUI-1.x-blue?style=for-the-badge) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-blue?style=for-the-badge) ![Vite](https://img.shields.io/badge/Vite-fast-purple?style=for-the-badge)
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
@@ -27,8 +27,10 @@ cd github-scraper-ui
 
 # Install dependencies
 pnpm install
+
 # Start the development server
 pnpm run dev
+
 ```
 
 The app will be running on http://localhost:3000.
