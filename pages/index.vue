@@ -27,7 +27,7 @@
 
 <script setup>
 useHead({
-  title: 'Scraper Github Profile',
+  title: 'GitHub Scraper',
   meta: [
     { name: 'description', content: 'GitHub Scraper' },
   ],

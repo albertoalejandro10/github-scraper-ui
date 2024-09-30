@@ -42,7 +42,7 @@ const route = useRoute()
 useHead({
   title: 'GitHub Profile ' + route.params.username,
   meta: [
-    { name: 'Scraped Github Profile', content: 'Scraped Github Profile' },
+    { name: 'GitHub Scraper', content: 'GitHub Scraper Profile' },
   ],
 })
 </script>
