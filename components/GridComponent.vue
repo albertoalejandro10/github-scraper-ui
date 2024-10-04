@@ -5,11 +5,11 @@
     </template>
 
     <template #dont-follow-you>
-      <FollowbackComponent :user-data="followback.whoDontFollowYouBack" />
+      <FollowbackComponent :user-data="followback.dontFollowYou" />
     </template>
 
     <template #you-dont-follow>
-      <FollowbackComponent :user-data="followback.whoYouDontFollowBack" />
+      <FollowbackComponent :user-data="followback.youDontFollow" />
     </template>
   </UTabs>
 </template>

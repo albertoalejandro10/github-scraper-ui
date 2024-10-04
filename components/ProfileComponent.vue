@@ -3,7 +3,7 @@
     <div class="py-3 px-6">
       <div class="flex flex-col lg:flex-row items-center lg:items-start">
         <NuxtImg
-          :src="getAvatar(profile.avatarUrl)" 
+          :src="getAvatar(profile.avatar)" 
           :alt="getAvatarAlt(profile.username)"
           class="w-32 h-32 rounded-full shadow-md object-cover self-center lg:mb-0 lg:mr-6"
         />

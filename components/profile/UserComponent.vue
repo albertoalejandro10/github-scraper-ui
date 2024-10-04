@@ -13,7 +13,7 @@
       />
     </UTooltip>
   </div>
-  <p class="text-gray-700 dark:text-gray-300 mb-2 max-w-md mx-auto lg:mx-0">{{ profile.bio }}</p>
+  <p class="text-gray-700 dark:text-gray-300 mb-2">{{ profile.bio }}</p>
 </template>
 
 <script setup>
